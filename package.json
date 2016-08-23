@@ -1,0 +1,20 @@
+{
+  "name": "safety-culture-test",
+  "version": "1.0.0",
+  "description": "Safety Culture traffic light controller test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test --recursive --reporter spec"
+  },
+  "author": "Burak Cankurtaran <burak.o.can@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  }
+}
